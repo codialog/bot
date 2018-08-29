@@ -1,0 +1,5 @@
+<root>
+    <item name='org.apache.http.impl.auth.BasicScheme'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>
