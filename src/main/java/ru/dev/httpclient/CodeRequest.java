@@ -1,12 +1,14 @@
 package ru.dev.httpclient;
 
-/** CodeRequest.
- *
+/**
+ * CodeRequest.
  * Класс для получения html на post запрос.
+ *
  * @author Druzhinin Vladimir (mailto:dialog.txt@gmail.com).
- * @since 02.09.2018.
  * @version 1.
+ * @since 02.09.2018.
  */
+
 import org.apache.http.message.BasicNameValuePair;
 
 import java.util.ArrayList;
@@ -15,9 +17,10 @@ import java.util.concurrent.TimeUnit;
 
 public class CodeRequest {
     /**
-     *postCode.
-     *@param code - код отправляемый в запросе в поле ввода.
-     *@return body - тело страници принимаемой на запрос.
+     * postCode.
+     *
+     * @param code - код отправляемый в запросе в поле ввода.
+     * @return body - тело страници принимаемой на запрос.
      */
     public String postCode(String code) {
         while (true) {

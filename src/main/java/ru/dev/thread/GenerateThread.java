@@ -1,5 +1,14 @@
 package ru.dev.thread;
 
+/**
+ * GenerateThread.
+ * Класс создания нити для поиска корректого кода.
+ *
+ * @author Druzhinin Vladimir (mailto:dialog.txt@gmail.com).
+ * @version 1.
+ * @since 02.09.2018.
+ */
+
 import ru.dev.httpclient.CodeRequest;
 
 import java.util.Date;
@@ -10,15 +19,26 @@ public class GenerateThread extends Thread {
     public static volatile String code = null;
     public static volatile String link = null;
 
+    /**
+     * GenerateThread канструктор.
+     *
+     * @param code - код отправляемый в post запросе.
+     */
     public GenerateThread(String code) {
         super(String.valueOf(code));
     }
 
+    /**
+     * findCode запуск нити.
+     */
     public void findCode() {
         countCreatedThreads = countCreatedThreads + 1;
         this.start();
     }
 
+    /**
+     * run переопределение метода базового класса, post request
+     */
     @Override
     public void run() {
         long start = new Date().getTime();

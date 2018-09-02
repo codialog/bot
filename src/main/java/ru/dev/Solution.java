@@ -1,11 +1,13 @@
 package ru.dev;
-/** Solution.
- *
+/**
+ * Solution.
  * Класс поиска валидного кода и получения ссылки.
+ *
  * @author Druzhinin Vladimir (mailto:dialog.txt@gmail.com).
- * @since 02.09.2018.
  * @version 1.
+ * @since 02.09.2018.
  */
+
 import ru.dev.thread.GenerateThread;
 
 import java.util.Date;
@@ -15,8 +17,9 @@ import java.util.concurrent.TimeUnit;
 public class Solution {
 
     /**
-     *Main.
-     *@param args - массив строк.
+     * Main.
+     *
+     * @param args - массив строк.
      */
     public static void main(String[] args) {
         int maxCountThread = 15;
@@ -30,22 +33,16 @@ public class Solution {
                 break;
         }
         long end = new Date().getTime();
+        System.out.println("###########################");
         System.out.println("code: " + result.get("code"));
         System.out.println("link: " + result.get("link"));
         System.out.println("search time: " + ((end - start) / (1000 * 60)));
+        System.out.println("###########################");
     }
 
     /**
-     * Method getResult -
-     * @return Echo plus your name.
+     * Method waitFreeTread - ожидание уменьшения количества текущих нитей
      */
-    public static HashMap<String, String> getResult() {
-        HashMap<String, String> result = new HashMap();
-        result.put("code", GenerateThread.code);
-        result.put("link", GenerateThread.link);
-        return result;
-    }
-
     public static void waitFreeTread(int maxCountThread) {
         int time = 0;
         while (GenerateThread.countCreatedThreads >= maxCountThread) {
@@ -58,6 +55,11 @@ public class Solution {
         }
     }
 
+    /**
+     * Method getCode - подбор кода
+     *
+     * @return HashMap со значениями кода и ссылки
+     */
     public static HashMap<String, String> getCode(int count, int countThread) {
         int codeLimit = (int) Math.pow(10, count);
         String code;
@@ -67,7 +69,10 @@ public class Solution {
             if (GenerateThread.code == null) {
                 new GenerateThread(code).findCode();
             } else {
-                return getResult();
+                HashMap<String, String> result = new HashMap();
+                result.put("code", GenerateThread.code);
+                result.put("link", GenerateThread.link);
+                return result;
             }
         }
         return null;

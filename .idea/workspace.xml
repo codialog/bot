@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2be097cc-79b7-4645-b836-84ccc24d79dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dev/httpclient/CodeRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dev/httpclient/HttpClientHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dev/httpclient/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dev/response/parser/HttpParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dev/thread/GenerateThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dev/counter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dev/solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dev/Solution.java" afterDir="false" />
+    <list default="true" id="2be097cc-79b7-4645-b836-84ccc24d79dd" name="Default Changelist" comment="refactoring">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dev/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dev/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dev/httpclient/HttpClientHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dev/httpclient/HttpClientHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dev/httpclient/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dev/httpclient/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dev/response/parser/HttpParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dev/response/parser/HttpParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dev/thread/GenerateThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dev/thread/GenerateThread.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,9 +50,9 @@
           <entry key="project.open.time.13" value="4" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -78,15 +73,16 @@
         <counts>
           <entry key="class" value="5" />
           <entry key="dummy" value="5" />
-          <entry key="java" value="6580" />
+          <entry key="java" value="7404" />
+          <entry key="txt" value="11" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="6580" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="JAVA" value="7404" />
+          <entry key="PLAIN_TEXT" value="16" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -100,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/dev/response/parser/HttpParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="19" column="38" selection-end-line="30" />
+            <state relative-caret-position="51">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#186#187#0" expanded="true" />
@@ -111,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/dev/httpclient/Response.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="27" selection-end-line="27" />
+            <state relative-caret-position="51">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/dev/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
-              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="34">
+              <caret line="2" column="12" selection-end-line="79" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/dev/thread/GenerateThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            <state>
+              <caret line="3" column="18" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#319#320#0" expanded="true" />
@@ -152,11 +148,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/dev/httpclient/CodeRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="391">
+              <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#668#688#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,8 +160,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/dev/httpclient/HttpClientHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="54" selection-end-line="22" />
+            <state relative-caret-position="374">
+              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,14 +193,14 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/dev/Response.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/dev/counter.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/dev/thread/HttpThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/dev/httpclient/Response.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/dev/httpclient/HttpClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/dev/httpclient/HttpClientHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/dev/response/parser/HttpParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/dev/thread/GenerateThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/dev/httpclient/CodeRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/dev/solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/dev/httpclient/HttpClientHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/dev/thread/GenerateThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/dev/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/dev/response/parser/HttpParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/dev/httpclient/Response.java" />
       </list>
     </option>
   </component>
@@ -256,8 +251,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -334,7 +329,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535891222616" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535894849668" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -456,18 +451,19 @@
       <workItem from="1535873507232" duration="4614000" />
       <workItem from="1535880883299" duration="5346000" />
       <workItem from="1535887393748" duration="3849000" />
+      <workItem from="1535891324254" duration="2933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117605000" />
+    <option name="totallyTimeSpent" value="120538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2637584" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.2671141" />
+      <window_info id="Structure" order="1" sideWeight="0.5010571" side_tool="true" weight="0.2671141" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -503,6 +499,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -724,49 +724,31 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/dev/counter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dev/httpclient/HttpClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dev/httpclient/HttpClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dev/httpclient/CodeRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="391">
+          <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/dev/httpclient/HttpClientHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="54" selection-end-line="22" />
+        <state relative-caret-position="374">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dev/httpclient/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dev/response/parser/HttpParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="19" column="38" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/dev/thread/GenerateThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        <state>
+          <caret line="3" column="18" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#319#320#0" expanded="true" />
@@ -775,21 +757,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dev/httpclient/CodeRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dev/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-end-line="79" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#668#688#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dev/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dev/response/parser/HttpParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/dev/httpclient/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
