@@ -38,6 +38,8 @@ public class Solution {
         System.out.println("link: " + result.get("link"));
         System.out.println("search time: " + ((end - start) / (1000 * 60)));
         System.out.println("###########################");
+        //code: 1783
+        //link: RIGHT =) https://en.wikipedia.org/wiki/Hot_air_balloon
     }
 
     /**
