@@ -1,5 +1,11 @@
 package ru.dev.httpclient;
 
+import org.apache.http.message.BasicNameValuePair;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
 /**
  * CodeRequest.
  * Класс для получения html на post запрос.
@@ -8,13 +14,6 @@ package ru.dev.httpclient;
  * @version 1.
  * @since 02.09.2018.
  */
-
-import org.apache.http.message.BasicNameValuePair;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
-
 public class CodeRequest {
     /**
      * postCode.
