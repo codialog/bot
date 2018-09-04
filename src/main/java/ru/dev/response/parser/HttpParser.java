@@ -1,5 +1,8 @@
 package ru.dev.response.parser;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  * HttpParser.
  * Класс поиска содержимого внтри html тега.
@@ -8,10 +11,6 @@ package ru.dev.response.parser;
  * @version 1.
  * @since 02.09.2018.
  */
-
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 public class HttpParser {
 
     private String html;
