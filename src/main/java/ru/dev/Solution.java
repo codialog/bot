@@ -1,4 +1,11 @@
 package ru.dev;
+
+import ru.dev.thread.GenerateThread;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.concurrent.TimeUnit;
+
 /**
  * Solution.
  * Класс поиска валидного кода и получения ссылки.
@@ -7,13 +14,6 @@ package ru.dev;
  * @version 1.
  * @since 02.09.2018.
  */
-
-import ru.dev.thread.GenerateThread;
-
-import java.util.Date;
-import java.util.HashMap;
-import java.util.concurrent.TimeUnit;
-
 public class Solution {
 
     /**
