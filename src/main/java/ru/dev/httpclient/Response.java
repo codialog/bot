@@ -1,5 +1,11 @@
 package ru.dev.httpclient;
 
+import org.apache.http.HttpResponse;
+import org.apache.http.util.EntityUtils;
+import ru.dev.response.parser.HttpParser;
+
+import java.io.IOException;
+
 /**
  * Response.
  * Класс работы с классом Response.
@@ -8,13 +14,6 @@ package ru.dev.httpclient;
  * @version 1.
  * @since 02.09.2018.
  */
-
-import org.apache.http.HttpResponse;
-import org.apache.http.util.EntityUtils;
-import ru.dev.response.parser.HttpParser;
-
-import java.io.IOException;
-
 public class Response {
 
     private HttpResponse response;
