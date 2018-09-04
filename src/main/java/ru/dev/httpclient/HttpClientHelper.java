@@ -1,14 +1,5 @@
 package ru.dev.httpclient;
 
-/**
- * HttpClientHelper.
- * Класс класс работы с сервером.
- *
- * @author Druzhinin Vladimir (mailto:dialog.txt@gmail.com).
- * @version 1.
- * @since 02.09.2018.
- */
-
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -19,6 +10,14 @@ import org.apache.http.message.BasicNameValuePair;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * HttpClientHelper.
+ * Класс класс работы с сервером.
+ *
+ * @author Druzhinin Vladimir (mailto:dialog.txt@gmail.com).
+ * @version 1.
+ * @since 02.09.2018.
+ */
 public class HttpClientHelper {
 
     /**
