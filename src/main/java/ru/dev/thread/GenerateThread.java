@@ -1,5 +1,9 @@
 package ru.dev.thread;
 
+import ru.dev.httpclient.CodeRequest;
+
+import java.util.Date;
+
 /**
  * GenerateThread.
  * Класс создания нити для поиска корректого кода.
@@ -8,11 +12,6 @@ package ru.dev.thread;
  * @version 1.
  * @since 02.09.2018.
  */
-
-import ru.dev.httpclient.CodeRequest;
-
-import java.util.Date;
-
 public class GenerateThread extends Thread {
 
     public static volatile int countCreatedThreads;
